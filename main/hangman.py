@@ -1,4 +1,4 @@
-from hangman_comps import word_list, stages, remarks, banner, score_board, win_board, lose_board
+from resources.hangman_comps import word_list, stages, remarks, banner, score_board, win_board, lose_board
 
 from random import choice
 from os import system
@@ -102,6 +102,7 @@ class HangMan:
                 if user_guess == self.word:
                     score += 10
                     self.set_vars()
+                    tries = tries + 1 if tries < 6 else tries
                     print(f"\n\t%s{self.get_remark().capitalize():1}! You guessed the wOOrrd.%s"%(fg('26'), attr('reset')))
                     sleep(1.6)
                 else:
