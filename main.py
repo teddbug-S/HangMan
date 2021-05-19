@@ -1,6 +1,6 @@
 # Imports the HangMan class, passes all necessary parameters and launches the game.
 
-from hangman import HangMan
+from core.hangman import HangMan
 
 from resources.hangman_comps import word_list, stages, remarks, banner, score_board, win_board, lose_board
 
