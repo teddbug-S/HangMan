@@ -127,4 +127,6 @@ class HangMan:
             again = input("\tDo you wish to play again_Y/N?: ").lower()
             if again == 'y':
                 self.game()
+            else:
+                system('clear')
  
