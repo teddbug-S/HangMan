@@ -13,8 +13,8 @@ A command-line interface hangman game.
 ![hangman2](https://github.com/teddbug-S/hangman/blob/main/hangman2.png)
 
 # Requirements
-- ![Python 3.8](https://python.org)
-- Git
+- [Python 3.8](https://python.org)
+- [Git](https://git-scm.com/downloads)
 
 # Notice
 Tested on Linux (Ubuntu)
