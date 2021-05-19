@@ -10,7 +10,11 @@ A command-line interface hangman game.
 
 - start the game `python3 hangman.py`
 
-[](https://github.com/teddbug-S/hangman/blob/main/hangman2.png)
+![hangman2](https://github.com/teddbug-S/hangman/blob/main/hangman2.png)
+
+# Requirements
+- ![Python 3.8](https://python.org)
+- Git
 
 # Notice
 Tested on Linux (Ubuntu)
