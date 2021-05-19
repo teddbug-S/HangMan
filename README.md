@@ -2,8 +2,12 @@
 A command-line interface hangman game.
 
 # Installation
-- clone the repo via `git clone https://github.com/teddbug-S/HangMan.git`
+- clone the repo via 
+```git clone https://github.com/teddbug-S/HangMan.git```
 - enter into the hangman directory via `cd hangman`
+- install the requiremnts using 
+```pip install -r requirements.txt```
+
 - start the game `python3 hangman.py`
 
 # Notice
