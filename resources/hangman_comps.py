@@ -7,7 +7,7 @@ banner = """
         #  # #  # # # #  #   #        #   # #  # # # #          |   /|\\
                   #  ##  #####                   #  ##          |   /|\\ 
                                                               [[]]
-        Author: TeddBug | GitHub: teddbug-S | FB: Tedd Bug | Twitter: teddbug
+         GitHub: teddbug-S | FB: Tedd Bug | Twitter: teddbug
         ................................................................
 %s""" % (fg('226'), attr('reset'))
 
