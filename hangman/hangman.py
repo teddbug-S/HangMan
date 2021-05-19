@@ -1,5 +1,3 @@
-from resources.hangman_comps import word_list, stages, remarks, banner, score_board, win_board, lose_board
-
 from random import choice
 from os import system
 from time import sleep
@@ -127,18 +125,4 @@ class HangMan:
             again = input("\tDo you wish to play again_Y/N?: ").lower()
             if again == 'y':
                 self.game()
-            
-
-
-
-if __name__ == '__main__':
-    hangman = HangMan(
-        word_list=word_list,
-        remarks=remarks,
-        banner=banner,
-        stages=stages,
-        score_board=score_board,
-        win_board=win_board,
-        lose_board=lose_board
-    )
-    hangman.game()
+ 
