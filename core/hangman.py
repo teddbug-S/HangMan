@@ -119,9 +119,11 @@ class HangMan:
                 self.refresh()
                 print(f"%s\t\t\t\tCongratulations!!!%s"%(fg('hot_pink_3a'), attr('reset')))
                 print(f"%s{self.win_table(score)}%s"%(fg('gold_1'), attr('reset')))
+                rint(f"\n\t%sWord: {self.word}%s"%(fg('87'), attr('reset')))
             else:
                 self.refresh()
                 print(f"%s{self.lose_table(score)}%s"%(fg('87'), attr('reset')))
+                print(f"\n\t%sWord: {self.word}%s"%(fg('87'), attr('reset')))
             again = input("\tDo you wish to play again_Y/N?: ").lower()
             if again == 'y':
                 self.game()
